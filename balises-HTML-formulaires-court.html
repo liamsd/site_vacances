@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Ma description du contenu de la page">
+	<title>Formulaires 1</title>
+</head>
+<body>
+	<h1>Tests de formulaires</h1>
+		<p>Ceci est une page HTML pour tester les formulaires</p>
+
+		<form method="post" action="traitement.php">
+		    <p>Voici mon formulaire :</p>
+					<p>
+						<label for="nom">Nom *</label>
+						<input id="nom" type="text" name="name" placeholder="votre nom *" required>
+					</p>
+
+					<p>
+						<label for="prenom">Prénom *</label>
+						<input id="prenom" type="text" name="first-name" placeholder="votre prénom *" required>
+					</p>
+
+					<p>
+						<label for="mail">E-mail *</label>
+						<input id="mail" type="email" name="mail" placeholder="votre e-mail *" required>
+					</p>
+
+					<p>
+						<label for="tel">Téléphone</label>
+						<input id="tel" type="tel" name="tel" placeholder="votre téléphone">
+					</p>
+					<p>
+						<label for="message">Votre message *</label>
+						<textarea id="message" name="message" rows=6></textarea>
+					</p>
+
+					<p>
+
+						<label for="politique">
+							<input id="politique" type="checkbox" name="politique"><small>J'accepte votre politique de confidentialité des données</small>
+						</label>
+					</p>
+					<p>
+						<input type="submit" value="Envoyer">
+					</p>
+					<p><small>* Champs obligatoires</small></p>
+
+		</form>
+
+</body>
+</html>

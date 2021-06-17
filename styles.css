@@ -1,0 +1,9 @@
+/*le titre principale font bleu texte en blanc et taille du texte 40px*/
+.h1{	
+	color: white;
+	font-size: 40px;
+}
+
+.bg-blue{
+	background-color: #006280;
+}
